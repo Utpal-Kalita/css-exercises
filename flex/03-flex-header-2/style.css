@@ -6,15 +6,28 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  margin: 0px;
+  border: 0px;
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 8px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 100%;
+  
+
 }
 
 .profile-image {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border: none;
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
@@ -27,22 +40,47 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  display: flex;
+  align-items: flex-start;
+  
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
 }
+
+.right-side, .left-side{
+  display: flex;
+  
+  align-items:center;
+  gap: 16px;
+
+}
+
+
+
